@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Examples</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+	<link rel="stylesheet" href="js/swiper-3.4.2.min.js">
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css">
+	<script>
+		var html = document.querySelector('html');
+		changeRem();
+		window.addEventListener('resize',changeRem);
+		function changeRem() {
+			var width = html.getBoundingClientRect().width;
+			//console.log( width );
+			html.style.fontSize = width/10+ 'px';
+		}
+	</script>
+</head>
+<body>
+	<!-- 开始  京东 -->
+	<div class="jd">
+		<!-- 开始  头部 -->
+	   	<div class="j-header">
+	   		<!-- 开始  搜索框-->
+	   		<div class="search-wrap">
+	   			<form action="">
+	   				<i class="iconfont icon-sousuo"></i>
+	   				<input id="sousuo" type="text" placeholder="圣诞好礼，APP首页下拉有惊喜">
+	   			</form>
+	   			<a href="#">搜索</a>
+	   		</div>
+	   	</div>
+
+	   	<!-- 开始  身体 -->
+	   	<div class="banner-wrap">
+	   		<!-- l轮播图 -->
+		   	<div class="swiper-container">
+			 	<ul class="swiper-wrapper">
+				    <li class="swiper-slide"><a href=""><img src="images/01-banner/1.jpg" alt=""></a></li>
+				    <li class="swiper-slide"><a href=""><img src="images/01-banner/2.jpg" alt=""></a></li>
+				    <li class="swiper-slide"><a href=""><img src="images/01-banner/3.jpg" alt=""></a></li>
+				</ul> 
+				<div class="swiper-pagination"></div>
+			</div>
+
+			<!-- 开始  导航 -->
+
+
+
+
+			<nav class="nav-wrap">
+				<a href=""><img src="images/02-nav/1.png" alt=""><span>京东超市</span></a>
+				<a href=""><img src="images/02-nav/2.png" alt=""><span>全球购</span></a>
+				<a href=""><img src="images/02-nav/3.png" alt=""><span>京东服饰</span></a>
+				<a href=""><img src="images/02-nav/4.png" alt=""><span>京东生鲜</span></a>
+				<a href=""><img src="images/02-nav/5.png" alt=""><span>排行榜</span></a>
+				<a href=""><img src="images/02-nav/6.png" alt=""><span>充值缴费</span></a>
+				<a href=""><img src="images/02-nav/7.png" alt=""><span>领京豆</span></a>
+				<a href=""><img src="images/02-nav/8.png" alt=""><span>领券</span></a>
+				<a href=""><img src="images/02-nav/9.png" alt=""><span>赚钱</span></a>
+				<a href=""><img src="images/02-nav/10.png" alt=""><span>物流查询</span></a>
+			</nav>
+
+			<!-- 开始 抽奖  -->
+			<section class="christmas">
+				<div class="c-top"></div>
+
+				<div class="c-bottom">
+					<div class="b-content-box">
+						<div class="b-content">
+							
+							<div class="swiper-container-1">
+							  <div class="swiper-wrapper">
+							    <div class="swiper-slide"><a href=""><img src="images/03-christmas/3.png" alt=""></a></div>
+							    <div class="swiper-slide"><a href=""><img src="images/03-christmas/3.png" alt=""></a></div>
+							    <div class="swiper-slide"><a href=""><img src="images/03-christmas/3.png" alt=""></a></div>
+							  </div>
+							</div>
+
+							<div>
+								<ul>
+									<li><a href=""><img src="images/03-christmas/4.png" alt=""></a></li>
+									<li><a href=""><img src="images/03-christmas/3.png" alt=""></a></li>
+									<li><a href=""><img src="images/03-christmas/3.png" alt=""></a></li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li><a href=""><img src="images/03-christmas/6.png" alt=""></a></li>
+									<li><a href=""><img src="images/03-christmas/3.png" alt=""></a></li>
+									<li><a href=""><img src="images/03-christmas/3.png" alt=""></a></li>
+								</ul>
+							</div>													
+						</div>
+						<a href="#">你还没登入哦~请先登入</a>	
+					</div>
+				</div>
+			</section>
+
+			<!-- 京东快报 -->
+			<section class="news-wrap">
+				<a href="" class="left"><img src="images/04-news/tit.png" alt=""></a>
+				<div class="new-banner">
+					<a href="">
+						<span>热</span>
+						10年荣耀10年的等待
+					</a>
+					<a href="">
+						<span>热</span>
+						王者荣耀
+					</a>
+					<a href="">
+						<span>热</span>
+						qq飞车
+					</a>
+				</div>
+				<a href="" class="right">更多</a>
+			</section>
+			<!-- 开始 京东秒杀 -->
+			<section class="spike-wrap">
+				<div class="s-title">
+					<a class="left" href="">
+						<img src="images/05-spike/skill.png" alt="">
+					</a>
+					<span>20点场</span>
+					<div class="time">
+						<div>00</div>
+						<span>:</span>
+						<div>12</div>
+						<span>:</span>
+						<div>50</div>
+					</div>
+					<a href="" class="right">
+						<span>京东秒杀</span>
+						<i class="iconfont icon-iconshouqi"></i>
+					</a>
+				</div>
+				<!-- 秒杀 banner -->
+				<div class="swiper-container-3">
+				  <div class="swiper-wrapper">
+				    <div class="swiper-slide">
+						<a href=""><img src="images/05-spike/1.jpg" alt=""></a>
+						<p>
+							<span>￥79</span>
+							<del>￥179</del>
+						</p>
+				    </div>
+				   <div class="swiper-slide">
+						<a href=""><img src="images/05-spike/2.jpg" alt=""></a>
+						<p>
+							<span>￥79</span>
+							<del>￥179</del>
+						</p>
+				    </div>
+				    <div class="swiper-slide">
+						<a href=""><img src="images/05-spike/3.jpg" alt=""></a>
+						<p>
+							<span>￥79</span>
+							<del>￥179</del>
+						</p>
+				    </div>
+				    <div class="swiper-slide">
+						<a href=""><img src="images/05-spike/3.jpg" alt=""></a>
+						<p>
+							<span>￥79</span>
+							<del>￥179</del>
+						</p>
+				    </div>
+				    <div class="swiper-slide">
+						<a href=""><img src="images/05-spike/3.jpg" alt=""></a>
+						<p>
+							<span>￥79</span>
+							<del>￥179</del>
+						</p>
+				    </div>
+				  </div>
+
+				</div>
+			</section>
+			<!-- 开始  圣诞老人 -->
+			<div class="common-1">
+				<a href=""><img src="images/sdlr.gif" alt=""></a>
+			</div>
+			
+			<!-- 开始  公共导航 -->
+			<section class="com-nav">
+				<div>
+					<a href=""></a>
+					<span>白条商城</span>
+					<p>打白条换机</p>
+					<img src="images/06-com-nav/1.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>品牌秒杀</span>
+					<p>低价抢打牌</p>
+					<img src="images/06-com-nav/2.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>闪购</span>
+					<p>打牌限时特价</p>
+					<img src="images/06-com-nav/3.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>爱吃</span>
+					<p>满90减50</p>
+					<img src="images/06-com-nav/1.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>排行榜</span>
+					<p>专属购物指南</p>
+					<img src="images/06-com-nav/2.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>发现好货</span>
+					<p>发现品质好生活</p>
+					<img src="images/06-com-nav/3.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>会买专辑</span>
+					<p>教你买买买</p>
+					<img src="images/06-com-nav/1.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>新品首发</span>
+					<p>华为现货抢</p>
+					<img src="images/06-com-nav/2.jpg" alt="">
+				</div>
+			</section>
+
+			<!-- 公共标题 -->
+			<div class="com-tit"></div>
+			<section class="com-nav com-nav-1">
+				<div class="com-50">
+					<a href=""></a>
+					<span>玩3C</span>
+					<p>周末放假 iPhone8立减689元</p>
+					<img src="images/08-com-nav/7.jpg" alt="">
+					<img src="images/08-com-nav/8.jpg" alt="">
+				</div>
+				<div class="com-50">
+					<a href=""></a>
+					<span>品牌秒杀</span>
+					<p>低价抢打牌</p>
+					<img src="images/08-com-nav/4.jpg" alt="">
+					<img src="images/08-com-nav/5.jpg" alt="">
+				</div>
+				<div class="com-50">
+					<a href=""></a>
+					<span>京东超市</span>
+					<p>好货部分满99-50 满199-100</p>
+					<img src="images/08-com-nav/2.jpg" alt="">
+					<img src="images/08-com-nav/3.jpg" alt="">
+				</div>
+				<div class="com-50">
+					<a href=""></a>
+					<span>爱家</span>
+					<p>新年换新装 家具每满200-40</p>
+					<img src="images/08-com-nav/8.jpg" alt="">
+					<img src="images/08-com-nav/1.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>排行榜</span>
+					<p>专属购物指南</p>
+					<img src="images/06-com-nav/2.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>发现好货</span>
+					<p>发现品质好生活</p>
+					<img src="images/06-com-nav/3.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>会买专辑</span>
+					<p>教你买买买</p>
+					<img src="images/06-com-nav/1.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>新品首发</span>
+					<p>华为现货抢</p>
+					<img src="images/06-com-nav/2.jpg" alt="">
+				</div>
+			</section>
+			<!-- 逛商场 -->
+			<div class="com-tit com-tit-1"></div>
+			<section class="com-nav com-nav-3">
+				<div class="com-51">
+					<a href=""></a>
+					<span>个护清理</span>
+					<p>满199减100</p>
+					<img src="images/08-com-nav/7.jpg" alt="">
+				</div>
+				<div class="com-51">
+					<a href=""></a>
+					<span>手机数码</span>
+					<p>荣耀V10</p>
+					<img src="images/08-com-nav/4.jpg" alt="">
+				</div>
+				<div class="com-51">
+					<a href=""></a>
+					<span>男人装馆</span>
+					<p>大牌抵至99</p>
+					<img src="images/08-com-nav/2.jpg" alt="">				
+				</div>
+				<div class="com-51">
+					<a href=""></a>
+					<span>大家电馆</span>
+					<p>满千减百</p>
+					<img src="images/08-com-nav/8.jpg" alt="">
+					<img src="images/08-com-nav/1.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>排行榜</span>
+					<p>专属购物指南</p>
+					<img src="images/06-com-nav/2.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>发现好货</span>
+					<p>发现品质好生活</p>
+					<img src="images/06-com-nav/3.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>会买专辑</span>
+					<p>教你买买买</p>
+					<img src="images/06-com-nav/1.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>新品首发</span>
+					<p>华为现货抢</p>
+					<img src="images/06-com-nav/2.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>排行榜</span>
+					<p>专属购物指南</p>
+					<img src="images/06-com-nav/2.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>发现好货</span>
+					<p>发现品质好生活</p>
+					<img src="images/06-com-nav/3.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>会买专辑</span>
+					<p>教你买买买</p>
+					<img src="images/06-com-nav/1.jpg" alt="">
+				</div>
+				<div>
+					<a href=""></a>
+					<span>新品首发</span>
+					<p>华为现货抢</p>
+					<img src="images/06-com-nav/2.jpg" alt="">
+				</div>
+			</section>
+
+			<!-- 公共轮播图 -->
+			<div class="com-banner">
+				<div class="swiper-container-4">
+				  <div class="swiper-wrapper">
+				    <div class="swiper-slide">
+						<a href="">
+							<img src="images/08-com-banner/1.jpg" alt="">
+						</a>
+				    </div>
+				    <div class="swiper-slide">
+						<a href="">
+							<img src="images/08-com-banner/2.jpg" alt="">
+						</a>
+				    </div>
+				    
+				  </div>
+				</div>
+			</div>
+
+			<!-- 为你推荐 -->
+			<section class="like-wrap">
+				<div class="l-tit">
+					<p>
+						<i class="iconfont icon-iconshangjiantou"></i>
+						<span>为你推荐</span>
+					</p>
+				</div>
+				<ul class="like">
+					<li>
+						<a href=""><img src="images/09-like/2.jpg" alt=""></a>
+						<p>
+							卓域家居 双人床 真皮床 1.8米床 榻榻米床 婚床 储物 按摩 现代简约软床多功能皮艺床 预售定金（补齐尾款发货） 智能旗舰版(按摩+蓝牙音响+保险柜+床尾+高床边)
+						</p>
+						<span>￥55.50</span>
+						<div>
+							<span>好评率100%</span>
+							<a href="">看相似</a>
+						</div>
+					</li>
+					<li>
+						<a href=""><img src="images/09-like/5.jpg" alt=""></a>
+						<p>
+							卓域家居 双人床 真皮床 1.8米床 榻榻米床 婚床 储物 按摩 现代简约软床多功能皮艺床 预售定金（补齐尾款发货） 智能旗舰版(按摩+蓝牙音响+保险柜+床尾+高床边)
+						</p>
+						<span>￥20.80</span>
+						<div>
+							<span>好评率98%</span>
+							<a href="">看相似</a>
+						</div>
+					</li>
+					<li>
+						<a href=""><img src="images/09-like/4.jpg" alt=""></a>
+						<p>
+							卓域家居 双人床 真皮床 1.8米床 榻榻米床 婚床 储物 按摩 现代简约软床多功能皮艺床 预售定金（补齐尾款发货） 智能旗舰版(按摩+蓝牙音响+保险柜+床尾+高床边)
+						</p>
+						<span>￥55.50</span>
+						<div>
+							<span>好评率100%</span>
+							<a href="">看相似</a>
+						</div>
+					</li>
+					<li>
+						<a href=""><img src="images/09-like/1.jpg" alt=""></a>
+						<p>
+							卓域家居 双人床 真皮床 1.8米床 榻榻米床 婚床 储物 按摩 现代简约软床多功能皮艺床 预售定金（补齐尾款发货） 智能旗舰版(按摩+蓝牙音响+保险柜+床尾+高床边)
+						</p>
+						<span>￥55.50</span>
+						<div>
+							<span>好评率100%</span>
+							<a href="">看相似</a>
+						</div>
+					</li>
+				</ul>
+			</section>
+		</div>
+
+		<!-- 开始  底部 -->
+		<div class="j-footer"> 
+			<div class="btn-wrap">
+				<a href="">点击继续加载</a>
+			</div>
+			<!-- 开始  登入 -->
+			<div class="login">
+				<a href="">登入</a>
+				<a href="">注册</a>
+				<a href="">反馈</a>
+				<a href="">回到顶部</a>
+			</div>
+
+			<div class="app-wrap">
+				<a href="">
+					<i></i>
+					<span>客户端</span>
+				</a>
+				<a href="">
+					<i></i>
+					<span>客户端</span>
+				</a>
+				<a href="">
+					<i></i>
+					<span>客户端</span>
+				</a>
+			</div>
+			<p class="copy">Copyright © 2004-2018 京东JD.com 版权所有</p>
+
+			<footer class="footer-wrap">
+				<a href="">
+					<img src="images/10-footer/1.png" alt="">
+				</a>
+				<a href="">
+					<img src="images/10-footer/2.png" alt="">
+				</a>
+				<a href="">
+					<img src="images/10-footer/3.png" alt="">
+				</a>
+				<a href="">
+					<img src="images/10-footer/4.png" alt="">
+				</a>
+			</footer>
+		</div>
+   </div>
+	
+
+   <script src="js/swiper-3.4.2.min.js"></script>
+   <script>
+		var mySwiper = new Swiper('.swiper-container', {
+			autoplay: 1000,//可选选项，自动滑动
+			 loop : true,
+			 pagination: '.swiper-pagination',
+			  
+		})
+	</script>
+	<script>
+		var mySwiper = new Swiper('.swiper-container-1', {
+			autoplay: 1000,//可选选项，自动滑动
+			 loop : true,
+			 pagination: '.swiper-pagination',
+			  direction : 'vertical',
+			  
+		})
+	</script>
+	
+	<script language="javascript"> 
+		var mySwiper = new Swiper('.swiper-container-3',{
+		slidesPerView : 3.5,
+		centeredSlides : false,
+		})
+	</script>
+
+	<script>
+		var mySwiper = new Swiper('.swiper-container-4', {
+			autoplay: 1000,//可选选项，自动滑动
+			loop:true,//循环轮播
+			slidesPerView : 1,
+		})
+	</script>
+</body>
+</html>
